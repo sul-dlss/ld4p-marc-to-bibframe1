@@ -8,18 +8,8 @@
 #OUTPUT_DIR='data/test'
 OUTPUT_DIR='../../../data/test'
 
-# ensure we have LoC marc2bibframe converter
 bf1_converter_path="../loc_marc2bibframe"
 bf1_converter="${bf1_converter_path}/xbin/saxon.xqy"
-if [ ! -f "${bf1_converter}" ]; then
-  if [ -d "${bf1_converter_path}" ]; then
-    git submodule update --init --recursive
-  fi
-  if [ ! -f "${bf1_converter}" ]; then
-    echo "ERROR: Can't find converter: ${bf1_converter}" 1>&2
-    exit 1
-  fi
-fi
 
 baseuri="http://linked-data-test.stanford.edu/library/"
 
