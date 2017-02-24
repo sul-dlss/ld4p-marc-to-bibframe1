@@ -8,7 +8,7 @@
 #OUTPUT_DIR='data/test'
 OUTPUT_DIR='../../../data/test'
 
-bf1_converter_path="../loc_marc2bibframe"
+bf1_converter_path="loc_marc2bibframe"
 bf1_converter="${bf1_converter_path}/xbin/saxon.xqy"
 
 baseuri="http://linked-data-test.stanford.edu/library/"
