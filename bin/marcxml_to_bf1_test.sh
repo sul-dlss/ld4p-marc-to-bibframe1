@@ -5,11 +5,11 @@
 # Convert marcxml file indicated in param to a Bibframe RDF file.
 
 #OUTPUT_DIR = '../../../data/rdfxml_output'
-OUTPUT_DIR='data/test'
-#OUTPUT_DIR='../../../data/test'
+#OUTPUT_DIR='data/test'
+OUTPUT_DIR='../../../data/test'
 
 # ensure we have LoC marc2bibframe converter
-bf1_converter_path="loc_marc2bibframe"
+bf1_converter_path="../loc_marc2bibframe"
 bf1_converter="${bf1_converter_path}/xbin/saxon.xqy"
 if [ ! -f "${bf1_converter}" ]; then
   if [ -d "${bf1_converter_path}" ]; then
