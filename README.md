@@ -1,3 +1,8 @@
+## Deprecated
+
+Superceded by https://github.com/sul-dlss/ld4p-marcxml-to-bibframe2
+
+
 [![Build Status](https://travis-ci.org/sul-dlss/ld4p-marcxml-to-bibframe1
 .svg?branch=master)](https://travis-ci.org/sul-dlss/ld4p-marcxml-to-bibframe1
 )
